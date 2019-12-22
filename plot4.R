@@ -18,6 +18,7 @@
         ##Plot
         
         plot(plotsource$Global_active_power~plotsource$fulltime, type="l", ylab="Global Active power", xlab="")
+        
         plot(plotsource$Voltage ~ plotsource$fulltime, type="l", ylab="Voltage", xlab="Datetime")
         
         with(plotsource, plot(Sub_metering_1~fulltime, type="l", ylab="Energy sub metering", xlab=""))
